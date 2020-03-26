@@ -10,10 +10,11 @@ import Foundation
 
 struct Player {
     
+    var id: Int // player number 1 - 6
     var name: String
-    var handScores: [Int]
-    var bids: [Int]
-    var tricksTaken: [Int]
+    var handScores = [Int]() // scores for each hand
+    var bids = [Int]() // bids for each hand
+    var tricksTaken = [Int]() // tricks taken each hand
     
-    var gameHistory: [String: Player] // game ID: player data
+    var gameHistory = [String: Player]() // game ID: player data
 }

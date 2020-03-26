@@ -10,6 +10,7 @@
 		FAC696662428254D008BE86A /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC696652428254D008BE86A /* Player.swift */; };
 		FAC69668242825F6008BE86A /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC69667242825F6008BE86A /* GameManager.swift */; };
 		FAE9449A242D0A5700109BB5 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE94499242D0A5700109BB5 /* History.swift */; };
+		FAE9449C242D23DB00109BB5 /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9449B242D23DB00109BB5 /* Hand.swift */; };
 		FAF19464241480660064478F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF19463241480660064478F /* AppDelegate.swift */; };
 		FAF19466241480660064478F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF19465241480660064478F /* SceneDelegate.swift */; };
 		FAF19468241480660064478F /* ScoreSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF19467241480660064478F /* ScoreSheetViewController.swift */; };
@@ -25,6 +26,7 @@
 		FAC696652428254D008BE86A /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		FAC69667242825F6008BE86A /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 		FAE94499242D0A5700109BB5 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		FAE9449B242D23DB00109BB5 /* Hand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
 		FAF19460241480660064478F /* Wizard Scorekeeper Free.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wizard Scorekeeper Free.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF19463241480660064478F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAF19465241480660064478F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			children = (
 				FAC696652428254D008BE86A /* Player.swift */,
 				FAC69667242825F6008BE86A /* GameManager.swift */,
+				FAE9449B242D23DB00109BB5 /* Hand.swift */,
 				FAE94499242D0A5700109BB5 /* History.swift */,
 			);
 			path = Model;
@@ -186,6 +189,7 @@
 				FAE9449A242D0A5700109BB5 /* History.swift in Sources */,
 				FAF19468241480660064478F /* ScoreSheetViewController.swift in Sources */,
 				FAC69668242825F6008BE86A /* GameManager.swift in Sources */,
+				FAE9449C242D23DB00109BB5 /* Hand.swift in Sources */,
 				FAF19464241480660064478F /* AppDelegate.swift in Sources */,
 				FAC696662428254D008BE86A /* Player.swift in Sources */,
 				FAF19466241480660064478F /* SceneDelegate.swift in Sources */,

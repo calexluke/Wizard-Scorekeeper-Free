@@ -325,6 +325,31 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="handCountView" destination="ySd-eK-gYg" id="mSY-4v-uqw"/>
+                <outlet property="handNumber" destination="VKF-8T-r4k" id="mnn-Eh-POx"/>
+                <outlet property="player1Bid" destination="Stn-lm-ypl" id="OSM-XG-7Qh"/>
+                <outlet property="player1Circle" destination="R07-PE-rci" id="ZjL-CW-GtX"/>
+                <outlet property="player1Score" destination="kKx-wi-ihh" id="NEu-da-whf"/>
+                <outlet property="player1View" destination="drh-YT-KBy" id="HRZ-6A-uPL"/>
+                <outlet property="player2Bid" destination="D36-jT-SqC" id="4WU-TF-ntK"/>
+                <outlet property="player2Circle" destination="IFN-V8-xuW" id="Tbc-a8-I9d"/>
+                <outlet property="player2Score" destination="Dnn-l3-Dec" id="UXy-Ni-nSg"/>
+                <outlet property="player2View" destination="uqq-nD-WsW" id="9pz-aM-aj5"/>
+                <outlet property="player3Bid" destination="lgo-xZ-Fyk" id="AvS-bo-jji"/>
+                <outlet property="player3Circle" destination="xlw-wn-HmC" id="Xy5-zH-pt3"/>
+                <outlet property="player3Score" destination="UcI-n5-ZW6" id="E0j-js-C87"/>
+                <outlet property="player3View" destination="ZLS-Cx-M4C" id="aHt-lH-Aie"/>
+                <outlet property="player4Bid" destination="oG0-zl-dUv" id="1rF-GG-9S9"/>
+                <outlet property="player4Circle" destination="MiW-WB-GlW" id="QWv-6I-soL"/>
+                <outlet property="player4Score" destination="U3s-XB-s05" id="xnE-cT-cEl"/>
+                <outlet property="player4View" destination="FJB-HD-6Az" id="0lP-Sb-Epz"/>
+                <outlet property="player5Bid" destination="ShQ-7G-Tve" id="Y07-xz-GC0"/>
+                <outlet property="player5Circle" destination="pTn-CD-WXv" id="oOS-HJ-BRU"/>
+                <outlet property="player5Score" destination="UMv-vg-7LF" id="s13-48-LDY"/>
+                <outlet property="player5View" destination="h1z-49-lht" id="Bdd-Sq-lpU"/>
+                <outlet property="player6Bid" destination="pwi-mb-ZSp" id="ocS-Ck-8gX"/>
+                <outlet property="player6Circle" destination="REH-Ur-Zsb" id="4JZ-Qm-wnT"/>
+                <outlet property="player6Score" destination="aRn-Oo-vHZ" id="p9v-al-cf3"/>
+                <outlet property="player6View" destination="E6O-9I-qSw" id="rcw-Jk-FI6"/>
             </connections>
             <point key="canvasLocation" x="94.927536231884062" y="119.19642857142857"/>
         </tableViewCell>
