@@ -14,4 +14,6 @@ struct Player {
     var handScores: [Int]
     var bids: [Int]
     var tricksTaken: [Int]
+    
+    var gameHistory: [String: Player] // game ID: player data
 }

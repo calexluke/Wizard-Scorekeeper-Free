@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TableViewCell: UITableViewCell {
+class ScorecardCell: UITableViewCell {
 
     
     @IBOutlet weak var handCountView: UIView!
@@ -17,7 +17,7 @@ class TableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        handCountView.layer.cornerRadius = 50
+        handCountView.layer.cornerRadius = handCountView.frame.size.height / 2
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

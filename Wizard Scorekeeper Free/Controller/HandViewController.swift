@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  Wizard Scorekeeper Free
 //
 //  Created by Alex Luke on 3/7/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class HandViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
