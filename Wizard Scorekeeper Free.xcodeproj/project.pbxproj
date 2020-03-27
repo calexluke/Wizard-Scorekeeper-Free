@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA23957E242D8FA200D17CA9 /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA23957D242D8FA200D17CA9 /* SetupViewController.swift */; };
 		FAC696662428254D008BE86A /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC696652428254D008BE86A /* Player.swift */; };
 		FAC69668242825F6008BE86A /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC69667242825F6008BE86A /* GameManager.swift */; };
 		FAE9449A242D0A5700109BB5 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE94499242D0A5700109BB5 /* History.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA23957D242D8FA200D17CA9 /* SetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
 		FAC696652428254D008BE86A /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		FAC69667242825F6008BE86A /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 		FAE94499242D0A5700109BB5 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 			children = (
 				FAF19467241480660064478F /* ScoreSheetViewController.swift */,
 				FAF19469241480660064478F /* HandViewController.swift */,
+				FA23957D242D8FA200D17CA9 /* SetupViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				FAF1946A241480660064478F /* HandViewController.swift in Sources */,
 				FAE9449A242D0A5700109BB5 /* History.swift in Sources */,
 				FAF19468241480660064478F /* ScoreSheetViewController.swift in Sources */,
+				FA23957E242D8FA200D17CA9 /* SetupViewController.swift in Sources */,
 				FAC69668242825F6008BE86A /* GameManager.swift in Sources */,
 				FAE9449C242D23DB00109BB5 /* Hand.swift in Sources */,
 				FAF19464241480660064478F /* AppDelegate.swift in Sources */,

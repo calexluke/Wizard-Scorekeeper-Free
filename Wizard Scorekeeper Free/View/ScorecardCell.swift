@@ -39,6 +39,7 @@ class ScorecardCell: UITableViewCell {
     @IBOutlet weak var player5Circle: UIImageView!
     @IBOutlet weak var player6Circle: UIImageView!
     
+    
     @IBOutlet weak var handNumber: UILabel!
     
     

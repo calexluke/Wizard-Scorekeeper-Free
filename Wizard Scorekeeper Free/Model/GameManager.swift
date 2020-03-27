@@ -25,7 +25,7 @@ struct GameManager {
     
     
     // array of dictionaries - scores for each hand. currentScores[handNumber - 1] = "Player Name": score after that hand
-    var currentScores: [[String: Int]]
+    var currentScores = [[String: Int]]()
     
     
     //MARK: - Game Manager methods
@@ -58,23 +58,36 @@ struct GameManager {
             newHand.bids.append(bid)
             newHand.tricksTaken.append(tricks)
         }
-        
+        checkBids(for: &newHand)
         newHand.currentScores = calculateHandScores(for: newHand)
         hands.append(newHand)
         updateHandNumber()
     }
     
+    func checkBids(for hand: inout Hand) {
+        for i in 0..<playerCount {
+            if hand.tricksTaken[i] == hand.bids[i] {
+                hand.madeBid.append(true)
+            } else {
+                hand.madeBid.append(false)
+            }
+        }
+    }
 
     func calculateHandScores(for hand: Hand) -> [Int] {
         
         let changes = calculateScoreChanges(for: hand)
         var scores = [Int]()
         
-        if currentHandNumber > 1 {
+        if hand.handNumber >= 2 {
             
-            let priorHand = hands[currentHandNumber - 2]
+            let priorHand = hands[hand.handNumber - 2]
+            
+            print("Prior hand was hand number \(priorHand.handNumber)")
+            print("there were \(priorHand.currentScores.count) scores in the prior hand")
+            
             for i in 0..<playerCount {
-                scores[i] = priorHand.currentScores[i] + changes[i]
+                scores.append(priorHand.currentScores[i] + changes[i])
             }
         } else {
             scores = changes
@@ -87,7 +100,7 @@ struct GameManager {
         var scoreChange: Int
         var changes = [Int]()
         
-        for i in 0..<hand.bids.count {
+        for i in 0..<playerCount {
             let bid = hand.bids[i]
             let tricks = hand.tricksTaken[i]
             
